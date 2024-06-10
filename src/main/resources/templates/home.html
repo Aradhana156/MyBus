@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+
+	<section>
+     <nav>
+        <nav class="navs" id="nav1">
+                <div class="div1" id="div1"><a href=""> <button>About us</button> </a></div>
+                <div class="div1" id="div2"> <a href=""> <button>contact</button> </a></div>
+        </nav>
+        <nav class="navs" id="nav2">
+            <div class="div2" id="div3"><h1>Bus Booking</h1></div>
+        </nav>
+        <nav class="navs" id="nav3">
+            <div class="div3" id="div4"><a href="/login"> <button>Login</button> </a></div>
+            <div class="div3" id="div5"> <a href="/signup"> <button>Signup</button> </a></div>
+        </nav>
+    </nav>
+    <!-- <main>
+        <section class="search-section">
+            <h2>Find Your Bus</h2>
+            <form>
+                <label for="origin">Origin:</label>
+                <input type="text" id="origin" name="origin" required>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+                <label for="date">Date of Travel:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main> -->
+    <main>
+        <section class="search">
+          <h2>Search for a Bus</h2>
+          <input type="text" id="origin" placeholder="Enter origin">
+          <input type="text" id="destination" placeholder="Enter destination">
+          <input type="date" id="date">
+          <button>Search</button>
+        </section>
+        
+        <section id="results" class="hidden">
+          <h2>Search Results</h2>
+          <div id="busList">
+            <!-- Bus search results will be displayed here -->
+          </div>
+        </section>
+      </main>
+    
+   
+</section>
+	
+</body>
+</html>
